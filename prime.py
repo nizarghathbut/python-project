@@ -8,7 +8,7 @@ try:
     firstValue = int(firstValue)
     endValue = int(endValue)
 except ValueError:
-    print("Error: First Value and End Value must be filled and must be firstValue number")
+    print("Error: First Value and End Value must be filled a number")
 else:
     if firstValue >= 2 and firstValue < endValue:
         count = 0
